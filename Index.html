@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story Sharing Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Story Sharing</h1>
+        <p>Write your stories and share them with the world!</p>
+    </header>
+
+    <main>
+        <section id="story-form">
+            <h2>Write Your Story</h2>
+            <form id="storyForm">
+                <textarea id="storyText" placeholder="Write your story here..." required></textarea><br>
+                <button type="submit">Submit Story</button>
+            </form>
+        </section>
+
+        <section id="stories">
+            <h2>Stories</h2>
+            <div id="storyList"></div>
+        </section>
+
+        <section id="feedback">
+            <h2>Give Your Feedback</h2>
+            <form id="feedbackForm">
+                <textarea id="feedbackText" placeholder="Write your feedback..." required></textarea><br>
+                <button type="submit">Submit Feedback</button>
+            </form>
+        </section>
+
+        <section id="ratings">
+            <h2>Rate Stories</h2>
+            <div id="ratingSection"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Story Sharing Platform</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
